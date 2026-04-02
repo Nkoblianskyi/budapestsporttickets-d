@@ -116,7 +116,7 @@ export const events: Event[] = [
     description: 'Az NBA szezonelőkészítő európai turnéjának egyik állomása – két NBA-csapat mérkőzi meg egymással Berlinben. Egyedülálló élmény az NBA-t élőben látni Európában.',
     partners: [
       { name: 'Ticketmaster', url: 'https://www.ticketmaster.com', priceFrom: 18000, priceTo: 95000, note: 'Viszonteladói platform' },
-      { name: 'Eventim DE', url: 'https://www.eventim.de', priceFrom: 20000, priceTo: 105000, note: 'Hivatalos forgalmazó' },
+      { name: 'Eventim HU', url: 'https://www.eventim.hu', priceFrom: 20000, priceTo: 105000, note: 'Hivatalos forgalmazó' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 22000, priceTo: 120000, note: 'Viszonteladói árak' },
     ],
   },
@@ -190,7 +190,7 @@ export const events: Event[] = [
     currency: 'HUF',
     description: 'Az EHF Bajnokok Ligájának végső négyes tornája Kölnben – Európa legjobb kézilabdacsapatai mérkőznek a trófeáért a hétvégi látványossággal.',
     partners: [
-      { name: 'Eventim DE', url: 'https://www.eventim.de', priceFrom: 22000, priceTo: 180000, note: 'Német forgalmazó' },
+      { name: 'Eventim HU', url: 'https://www.eventim.hu', priceFrom: 22000, priceTo: 180000, note: 'Magyar forgalmazó' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 25000, priceTo: 195000, note: 'Viszonteladói árak' },
       { name: 'Viagogo', url: 'https://www.viagogo.com', priceFrom: 28000, priceTo: 220000, note: 'Viszonteladói árak' },
     ],
