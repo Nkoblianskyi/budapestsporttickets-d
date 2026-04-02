@@ -1,10 +1,7 @@
 const partners = [
-  { name: 'Ticketmaster', description: 'Világ vezető jegykereskedő platformja', region: 'Globális' },
-  { name: 'StubHub', description: 'Másodlagos jegypiaci óriás', region: 'Globális' },
-  { name: 'Viagogo', description: 'Európai és globális viszonteladó', region: 'Globális' },
-  { name: 'LiveTicket', description: 'Magyar jegyeladási platform', region: 'Magyarország' },
-  { name: 'UEFA Tickets', description: 'UEFA hivatalos jegyiroda', region: 'Európa' },
-  { name: 'Formula 1', description: 'F1 hivatalos jegyértékesítő', region: 'Globális' },
+  { name: 'Jegy.hu', description: 'Magyar jegyértékesítő platform – jegy.hu', region: 'Magyarország' },
+  { name: 'Eventim', description: 'Nemzetközi és hazai eseményjegyek – eventim.com', region: 'Európa' },
+  { name: 'Jegymester', description: 'Magyar jegyiroda – jegymester.hu', region: 'Magyarország' },
 ]
 
 export default function PartnersSection() {
@@ -26,7 +23,7 @@ export default function PartnersSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
           {partners.map((p, i) => (
             <div
               key={i}

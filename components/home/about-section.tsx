@@ -31,7 +31,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-2 gap-4">
             {[
               { number: '18+', label: 'Esemény\naz adatbázisban' },
-              { number: '4+', label: 'Partner\nforgalmazó' },
+              { number: '3', label: 'Partner\nforgalmazó' },
               { number: '100%', label: 'Független\nösszehasonlítás' },
               { number: '0 Ft', label: 'Szolgáltatás\ndíja' },
             ].map((stat, i) => (

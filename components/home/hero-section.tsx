@@ -93,7 +93,7 @@ export default function HeroSection() {
             <div className="flex flex-wrap gap-x-8 gap-y-2 mt-10">
               {[
                 { value: '200+', label: 'Esemény' },
-                { value: '8', label: 'Partner' },
+                { value: '3', label: 'Partner' },
                 { value: '12', label: 'Ország' },
               ].map((stat) => (
                 <div key={stat.label} className="flex items-baseline gap-2">
