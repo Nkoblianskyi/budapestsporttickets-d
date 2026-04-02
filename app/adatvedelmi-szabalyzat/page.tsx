@@ -88,7 +88,7 @@ const sections = [
   {
     title: '10. Módosítások',
     content:
-      'Fenntartjuk a jogot, hogy ezt az adatvédelmi szabályzatot bármikor módosítsuk. A változásokról a weboldalon tájékoztatjuk a felhasználókat. A szabályzat utolsó frissítésének dátuma: 2025. január 1.',
+      'Fenntartjuk a jogot, hogy ezt az adatvédelmi szabályzatot bármikor módosítsuk. A változásokról a weboldalon tájékoztatjuk a felhasználókat. A szabályzat utolsó frissítésének dátuma: 2026',
     type: 'paragraph',
   },
   {
