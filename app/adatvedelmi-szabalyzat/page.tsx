@@ -58,7 +58,7 @@ const sections = [
   {
     title: '6. Harmadik felek és partnerek',
     content:
-      'A weboldal partnerei (pl. Jegy.hu, Eventim, Jegymester) önálló adatkezelők. A partner weboldalára kattintva az adott platform adatvédelmi szabályzata vonatkozik Önre. A BudapestSportTickets.com nem vállal felelősséget a partnerek adatkezeléséért. Az általunk linkelt partneroldalak saját, független adatvédelmi és kereskedelmi feltételekkel rendelkeznek.',
+      'A weboldal partnerei (pl. Ticketmaster, StubHub, Viagogo, Jegy.hu, Eventim, Jegymester, AXS) önálló adatkezelők. A partner weboldalára kattintva az adott platform adatvédelmi szabályzata vonatkozik Önre. A BudapestSportTickets.com nem vállal felelősséget a partnerek adatkezeléséért. Az általunk linkelt partneroldalak saját, független adatvédelmi és kereskedelmi feltételekkel rendelkeznek.',
     type: 'paragraph',
   },
   {

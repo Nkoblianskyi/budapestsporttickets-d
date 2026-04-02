@@ -57,7 +57,7 @@ const sections = [
   {
     title: '3. Harmadik felek sütijei',
     content:
-      'Weboldalunk analitikai sütikhez igénybe veszi a Google Analytics szolgáltatást. Ezek az adatok anonim formában kerülnek feldolgozásra, személyazonosításra nem alkalmasak. Partneroldalaink (pl. Jegy.hu, Eventim, Jegymester) saját sütiket helyezhetnek el, ha az Ön böngészőjében megnyitja azokat – ezekért mi nem vállalunk felelősséget.',
+      'Weboldalunk analitikai sütikhez igénybe veszi a Google Analytics szolgáltatást. Ezek az adatok anonim formában kerülnek feldolgozásra, személyazonosításra nem alkalmasak. Partneroldalaink (pl. Ticketmaster, StubHub, Viagogo, Jegy.hu, Eventim, Jegymester, AXS) saját sütiket helyezhetnek el, ha az Ön böngészőjében megnyitja azokat – ezekért mi nem vállalunk felelősséget.',
   },
   {
     title: '4. A sütik kezelése és letiltása',
