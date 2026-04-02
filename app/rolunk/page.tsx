@@ -39,7 +39,7 @@ export default function AboutPage() {
       <Navbar />
       <main>
         {/* Hero with Disclaimer */}
-        <section className="pt-16 bg-secondary" aria-label="Rólunk hero">
+        <section className="bg-secondary pt-nav" aria-label="Rólunk hero">
           <div className="min-h-[20vh] flex items-center">
             <DisclaimerBanner variant="hero" />
           </div>

@@ -11,7 +11,7 @@ export default function DisclaimerBanner({ variant = 'hero' }: DisclaimerBannerP
       role="alert"
       aria-live="polite"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-start gap-4">
+      <div className="max-w-7xl mx-auto flex items-start gap-3 px-4 py-4 sm:gap-4 sm:px-6 sm:py-5 lg:px-8">
         <ShieldAlert
           className={variant === 'hero' ? 'w-8 h-8 shrink-0 mt-0.5' : 'w-6 h-6 shrink-0 mt-0.5'}
           aria-hidden="true"

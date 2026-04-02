@@ -93,6 +93,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@layer utilities {
+  /* Fixed navbar (h-16) + iOS notch / safe area — use under <Navbar /> */
+  .pt-nav {
+    padding-top: calc(4rem + env(safe-area-inset-top, 0px));
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

@@ -19,7 +19,7 @@ export default function EventsPage() {
       <Navbar />
       <main>
         {/* Hero with disclaimer */}
-        <section className="pt-16 bg-secondary" aria-label="Események hős">
+        <section className="bg-secondary pt-nav" aria-label="Események hős">
           {/* Disclaimer band - ~20% */}
           <div className="min-h-[20vh] flex items-center">
             <DisclaimerBanner variant="hero" />

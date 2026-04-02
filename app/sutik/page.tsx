@@ -77,7 +77,7 @@ export default function CookiePolicyPage() {
       <Navbar />
       <main>
         {/* Hero with Disclaimer */}
-        <section className="pt-16 bg-secondary" aria-label="Cookie-szabályzat hero">
+        <section className="bg-secondary pt-nav" aria-label="Cookie-szabályzat hero">
           <div className="min-h-[20vh] flex items-center">
             <DisclaimerBanner variant="hero" />
           </div>

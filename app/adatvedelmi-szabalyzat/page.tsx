@@ -105,7 +105,7 @@ export default function PrivacyPolicyPage() {
       <Navbar />
       <main>
         {/* Hero with Disclaimer */}
-        <section className="pt-16 bg-secondary" aria-label="Adatvédelmi szabályzat hero">
+        <section className="bg-secondary pt-nav" aria-label="Adatvédelmi szabályzat hero">
           <div className="min-h-[20vh] flex items-center">
             <DisclaimerBanner variant="hero" />
           </div>

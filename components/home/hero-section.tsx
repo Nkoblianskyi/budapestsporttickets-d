@@ -6,10 +6,10 @@ import { ShieldAlert } from 'lucide-react'
 export default function HeroSection() {
   return (
     <section
-      className="relative h-screen flex flex-col overflow-hidden pt-16"
+      className="relative flex min-h-screen flex-col overflow-x-hidden supports-[height:100dvh]:min-h-dvh"
       aria-label="Főoldal hős szekció"
     >
-      {/* Background image */}
+      {/* Background image (full viewport; content sits in padded column below) */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-stadium.jpg"
@@ -24,37 +24,36 @@ export default function HeroSection() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
       </div>
 
-      {/* ── DISCLAIMER BAND: exactly 20vh ─────────────────────────── */}
-      <div
-        className="relative z-10 flex items-center"
-        style={{ height: '20vh', minHeight: '120px', background: 'var(--disclaimer)' }}
-        role="alert"
-        aria-live="polite"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="flex items-start gap-4">
-            <ShieldAlert
-              className="shrink-0 text-[var(--disclaimer-foreground)] mt-0.5"
-              style={{ width: '2.4rem', height: '2.4rem' }}
-              aria-hidden="true"
-            />
-            <div>
-              {/* Disclaimer title — intentionally the LARGEST text on page */}
-              <p className="font-heading font-bold leading-tight text-[var(--disclaimer-foreground)] text-[clamp(1.35rem,3vw,2.4rem)] uppercase">
-                FONTOS: Ez az oldal egy MÁSODLAGOS PIAC – NEM értékesít jegyeket közvetlenül!
-              </p>
-              <p className="font-sans font-semibold leading-snug text-[var(--disclaimer-foreground)]/95 mt-1.5 text-[clamp(0.9rem,1.7vw,1.2rem)]">
-                A BudapestSportTickets.com viszonteladói jegyeket összehasonlító platform. Az árak <strong>magasabbak lehetnek a névleges jegyárnál</strong>. Jegyeket nem értékesítünk, fizetési adatokat nem gyűjtünk – vásárlás előtt ellenőrizze az árat közvetlenül a partner weboldalán.
-              </p>
+      <div className="relative z-10 flex min-h-screen flex-col pt-nav supports-[height:100dvh]:min-h-dvh">
+        {/* ── DISCLAIMER BAND ─────────────────────────── */}
+        <div
+          className="relative flex shrink-0 items-start py-4 sm:items-center sm:py-0 md:min-h-[20vh]"
+          style={{ minHeight: 'max(8.5rem, 18vh)', background: 'var(--disclaimer)' }}
+          role="alert"
+          aria-live="polite"
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-1 sm:py-4">
+            <div className="flex items-start gap-3 sm:gap-4">
+              <ShieldAlert
+                className="shrink-0 text-[var(--disclaimer-foreground)] mt-0.5 size-7 sm:size-10"
+                aria-hidden="true"
+              />
+              <div>
+                <p className="font-heading font-bold leading-snug text-[var(--disclaimer-foreground)] text-[clamp(1rem,4.2vw,2.4rem)] uppercase sm:leading-tight">
+                  FONTOS: Ez az oldal egy MÁSODLAGOS PIAC – NEM értékesít jegyeket közvetlenül!
+                </p>
+                <p className="font-sans font-semibold leading-snug text-[var(--disclaimer-foreground)]/95 mt-2 text-[clamp(0.8rem,3.5vw,1.2rem)] sm:mt-1.5">
+                  A BudapestSportTickets.com viszonteladói jegyeket összehasonlító platform. Az árak <strong>magasabbak lehetnek a névleges jegyárnál</strong>. Jegyeket nem értékesítünk, fizetési adatokat nem gyűjtünk – vásárlás előtt ellenőrizze az árat közvetlenül a partner weboldalán.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* ── HERO CONTENT: remaining 80vh ───────────────────────────── */}
-      <div className="relative z-10 flex-1 flex items-center" style={{ height: '80vh' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="max-w-4xl">
+        {/* ── HERO CONTENT ───────────────────────────── */}
+        <div className="relative flex min-h-0 flex-1 flex-col justify-center py-10 sm:py-12">
+          <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl">
 
             {/* Tag */}
             <span className="inline-flex items-center gap-1.5 bg-primary/15 border border-primary/35 text-primary font-bold uppercase tracking-[0.18em] px-3 py-1 rounded-sm text-xs mb-5">
@@ -108,6 +107,7 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   )

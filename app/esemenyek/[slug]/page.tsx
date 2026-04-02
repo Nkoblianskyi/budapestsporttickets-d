@@ -40,7 +40,7 @@ export default async function EventDetailPage({ params }: PageProps) {
       <Navbar />
       <main>
         {/* Hero with Disclaimer */}
-        <section className="pt-16 relative bg-secondary" aria-label="Esemény részletek">
+        <section className="relative bg-secondary pt-nav" aria-label="Esemény részletek">
           {/* Disclaimer ~20% */}
           <div className="min-h-[20vh] flex items-center">
             <DisclaimerBanner variant="hero" />
