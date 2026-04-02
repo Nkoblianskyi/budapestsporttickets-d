@@ -40,7 +40,7 @@ export const events: Event[] = [
       { name: 'Eventim.hu', url: 'https://www.eventim.hu', priceFrom: 3500, priceTo: 18000, note: 'Magyar platform' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 4200, priceTo: 22000, note: 'Viszonteladói árak' },
       { name: 'Viagogo', url: 'https://www.viagogo.com', priceFrom: 5000, priceTo: 25000, note: 'Viszonteladói árak' },
-      { name: 'Interticket', url: 'https://www.interticket.com', priceFrom: 3800, priceTo: 19500, note: 'Magyar platform' },
+      { name: 'Jegy.hu', url: 'https://www.jegy.hu', priceFrom: 3800, priceTo: 19500, note: 'Magyar platform' },
     ],
   },
   {
@@ -58,7 +58,7 @@ export const events: Event[] = [
     description: 'A Budapest Grand Prix az ATP tenisztorna legizgalmasabb hete. Világ top-100-as játékosok küzdenek a döntőért a magyar főváros egyik legszebb teniszkomplexumában.',
     partners: [
       { name: 'Eventim.hu', url: 'https://www.eventim.hu', priceFrom: 4000, priceTo: 35000, note: 'Magyar platform' },
-      { name: 'Interticket', url: 'https://www.interticket.com', priceFrom: 4500, priceTo: 38000, note: 'Magyar platform' },
+      { name: 'Jegy.hu', url: 'https://www.jegy.hu', priceFrom: 4500, priceTo: 38000, note: 'Magyar platform' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 5500, priceTo: 42000, note: 'Viszonteladói árak' },
     ],
   },
@@ -266,7 +266,7 @@ export const events: Event[] = [
     description: 'A magyar labdarúgó-válogatott hazai VB-selejtezője a Puskás Arénában. Szurkolj a nemzeti csapatnak a 2026-os világbajnoki helyért folyó harcban!',
     partners: [
       { name: 'Eventim.hu', url: 'https://www.eventim.hu', priceFrom: 5000, priceTo: 28000, note: 'Magyar platform' },
-      { name: 'Interticket', url: 'https://www.interticket.com', priceFrom: 5500, priceTo: 30000, note: 'Magyar platform' },
+      { name: 'Jegy.hu', url: 'https://www.jegy.hu', priceFrom: 5500, priceTo: 30000, note: 'Magyar platform' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 7000, priceTo: 38000, note: 'Viszonteladói árak' },
     ],
   },
@@ -304,7 +304,7 @@ export const events: Event[] = [
     description: 'A Bellator MMA Budapest-gálája a BOK Hallban – hazai harcosok a világ legjobb MMA-szervezetének kártyáján. Teli est izgalmas mérkőzésekkel.',
     partners: [
       { name: 'Eventim.hu', url: 'https://www.eventim.hu', priceFrom: 8000, priceTo: 65000, note: 'Magyar platform' },
-      { name: 'Interticket', url: 'https://www.interticket.com', priceFrom: 8500, priceTo: 68000, note: 'Magyar platform' },
+      { name: 'Jegy.hu', url: 'https://www.jegy.hu', priceFrom: 8500, priceTo: 68000, note: 'Magyar platform' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 10000, priceTo: 78000, note: 'Viszonteladói árak' },
     ],
   },
@@ -340,7 +340,7 @@ export const events: Event[] = [
     currency: 'HUF',
     description: 'A Ferencváros az Európa-liga csoportkörében szerepel – nézd végig, ahogy a magyar bajnok európai színpadra lép a Groupama Arénában.',
     partners: [
-      { name: 'Interticket', url: 'https://www.interticket.com', priceFrom: 8000, priceTo: 42000, note: 'Magyar platform' },
+      { name: 'Jegy.hu', url: 'https://www.jegy.hu', priceFrom: 8000, priceTo: 42000, note: 'Magyar platform' },
       { name: 'Eventim.hu', url: 'https://www.eventim.hu', priceFrom: 9000, priceTo: 45000, note: 'Magyar platform' },
       { name: 'StubHub', url: 'https://www.stubhub.com', priceFrom: 12000, priceTo: 58000, note: 'Viszonteladói árak' },
     ],
@@ -359,7 +359,7 @@ export const events: Event[] = [
     currency: 'HUF',
     description: 'A röplabda Nemzetek Ligájának budapesti fordulója – hazai közönség előtt játszik a magyar válogatott a világ legjobb csapatai ellen.',
     partners: [
-      { name: 'Interticket', url: 'https://www.interticket.com', priceFrom: 3000, priceTo: 20000, note: 'Magyar platform' },
+      { name: 'Jegy.hu', url: 'https://www.jegy.hu', priceFrom: 3000, priceTo: 20000, note: 'Magyar platform' },
       { name: 'Eventim.hu', url: 'https://www.eventim.hu', priceFrom: 3500, priceTo: 22000, note: 'Magyar platform' },
     ],
   },
